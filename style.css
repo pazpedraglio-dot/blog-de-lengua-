@@ -1,0 +1,72 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background: #e8f3ff; /* azul pastel muy suave */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 30px;
+    background: #a7c7ff; /* azul pastel */
+    color: #2a3b5f;
+    border-bottom: 3px solid #8fb3ff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background: #8fb3ff; /* azul medio pastel */
+    padding: 10px;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #2a3b5f;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.card {
+    background: #ffffff;
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid #a7c7ff; /* borde azul pastel */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    transition: opacity 0.3s ease;
+}
+
+.card h2 {
+    color: #4d7bff; /* azul más fuerte */
+    text-align: center;
+}
+
+ul {
+    color: #2a3b5f;
+    line-height: 1.6;
+}
+
+p {
+    color: #2a3b5f;
+}
+
+blockquote {
+    background: #dce9ff; /* azul muy suave */
+    padding: 10px;
+    border-left: 4px solid #4d7bff;
+    border-radius: 10px;
+    font-style: italic;
+    color: #2a3b5f;
+}
+
+.oculto {
+    display: none;
+}

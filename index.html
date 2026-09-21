@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ortografía Divertida — Valentina</title>
+
+    <!-- ENLACE CORRECTO AL CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- ENLACE CORRECTO AL JS -->
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<header>
+    <h1>Ortografía Divertida</h1>
+    <p>Aprende reglas reales, explicadas de forma clara y agradable</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a onclick="mostrarSeccion('abecedario')">Abecedario</a></li>
+        <li><a onclick="mostrarSeccion('b-v')">Uso de B y V</a></li>
+        <li><a onclick="mostrarSeccion('g-j')">Uso de G y J</a></li>
+        <li><a onclick="mostrarSeccion('h')">Uso de la H</a></li>
+        <li><a onclick="mostrarSeccion('ll-y')">LL y Y</a></li>
+        <li><a onclick="mostrarSeccion('mayusculas')">Mayúsculas</a></li>
+        <li><a onclick="mostrarSeccion('ejemplos')">Ejemplos</a></li>
+    </ul>
+</nav>
+
+<main>
+
+    <!-- ABECEDARIO -->
+    <div class="card" id="abecedario">
+        <h2>El Abecedario</h2>
+        <p>El español tiene 29 letras. Algunas representan un solo sonido, otras varios, y algunas no suenan, como la h.</p>
+
+        <ul>
+            <li>La h no suena.</li>
+            <li>La g puede sonar como /g/ o /j/.</li>
+            <li>La c puede sonar como /k/ o /s/.</li>
+            <li>La x puede sonar como /ks/, /gs/, /s/ o /j/.</li>
+        </ul>
+
+        <div class="consejo">
+            <h3>Consejos para entenderlo</h3>
+            <p>Piensa en las letras como herramientas: algunas sirven para un solo sonido y otras para varios.</p>
+        </div>
+
+        <div class="facil">
+            <h3>Cómo aprenderlo fácil</h3>
+            <p>Haz una tabla con cada letra y escribe ejemplos de sus sonidos. Repetirlos en voz alta ayuda muchísimo.</p>
+        </div>
+    </div>
+
+    <!-- B Y V -->
+    <div class="card oculto" id="b-v">
+        <h2>Uso de B y V</h2>
+        <p>La b y la v suenan igual, por eso se confunden.</p>
+
+        <h3>Se escriben con B:</h3>
+        <ul>
+            <li>Verbos terminados en -bir.</li>
+            <li>Terminaciones del pasado: -aba, -abas, -ábamos.</li>
+            <li>Palabras con bu-, bur-, bus-.</li>
+            <li>Palabras con bio-.</li>
+        </ul>
+
+        <h3>Se escriben con V:</h3>
+        <ul>
+            <li>Palabras que empiezan con eva-, eve-, evi-, evo-.</li>
+            <li>Adjetivos terminados en -avo, -ava, -evo, -eva, -ivo.</li>
+            <li>Verbos terminados en -olver.</li>
+        </ul>
+
+        <div class="consejo">
+            <h3>Consejos para entenderlo</h3>
+            <p>Si empieza con “eva/eve/evi/evo”, casi siempre es V. Si termina en -bir, casi siempre es B.</p>
+        </div>
+
+        <div class="facil">
+            <h3>Cómo aprenderlo fácil</h3>
+            <p>Haz dos listas: una de palabras con B y otra con V. Agrúpalas por regla y repítelas varias veces.</p>
+        </div>
+    </div>
+
+    <!-- G Y J -->
+    <div class="card oculto" id="g-j">
+        <h2>Uso de G y J</h2>
+        <p>La g y la j pueden sonar igual, pero se escriben distinto según la regla.</p>
+
+        <h3>Se escriben con G:</h3>
+        <ul>
+            <li>Palabras que empiezan con geo-.</li>
+            <li>Terminadas en -genario, -géneo, -génico.</li>
+            <li>Verbos terminados en -ger y -gir.</li>
+        </ul>
+
+        <h3>Se escriben con J:</h3>
+        <ul>
+            <li>Palabras terminadas en -aje y -eje.</li>
+            <li>Derivadas de palabras con j.</li>
+            <li>Verbos terminados en -jear.</li>
+        </ul>
+
+        <div class="consejo">
+            <h3>Consejos para entenderlo</h3>
+            <p>Si termina en -aje o -eje, siempre lleva J.</p>
+        </div>
+
+        <div class="facil">
+            <h3>Cómo aprenderlo fácil</h3>
+            <p>Memoriza las terminaciones: -aje y -eje siempre con J. Repite ejemplos en voz alta.</p>
+        </div>
+    </div>
+
+    <!-- H -->
+    <div class="card oculto" id="h">
+        <h2>Uso de la H</h2>
+        <p>La h no suena, pero aparece en muchas palabras por reglas específicas.</p>
+
+        <ul>
+            <li>Verbos: haber, hacer, hablar.</li>
+            <li>Palabras que empiezan con hue-, hui-, hie-.</li>
+            <li>Palabras con diptongo ue intercalado.</li>
+            <li>Palabras con prefijos como hecto-, helio-, hiper-.</li>
+        </ul>
+
+        <div class="consejo">
+            <h3>Consejos para entenderlo</h3>
+            <p>Si ves “hue”, “hie” o “hui”, casi siempre lleva H.</p>
+        </div>
+
+        <div class="facil">
+            <h3>Cómo aprenderlo fácil</h3>
+            <p>Haz una lista de palabras con H y repítelas. La memoria visual ayuda mucho con esta letra.</p>
+        </div>
+    </div>
+
+    <!-- LL Y Y -->
+    <div class="card oculto" id="ll-y">
+        <h2>Uso de LL y Y</h2>
+        <p>La ll y la y pueden sonar igual, pero se escriben diferente.</p>
+
+        <h3>Se escriben con LL:</h3>
+        <ul>
+            <li>Palabras terminadas en -illo y -illa.</li>
+            <li>Verbos terminados en -illar, -ullar, -ullir.</li>
+        </ul>
+
+        <h3>Se escriben con Y:</h3>
+        <ul>
+            <li>Palabras terminadas en -ay, -ey, -oy, -uy.</li>
+            <li>La conjunción y.</li>
+            <li>Gerundio del verbo ir: yendo.</li>
+        </ul>
+
+        <div class="consejo">
+            <h3>Consejos para entenderlo</h3>
+            <p>Si termina en -oy, -ay, -ey o -uy, siempre lleva Y.</p>
+        </div>
+
+        <div class="facil">
+            <h3>Cómo aprenderlo fácil</h3>
+            <p>Repite palabras que terminen en esas terminaciones. Son fáciles de memorizar.</p>
+        </div>
+    </div>
+
+    <!-- MAYÚSCULAS -->
+    <div class="card oculto" id="mayusculas">
+        <h2>Uso de Mayúsculas</h2>
+        <p>Las mayúsculas se usan para nombres propios, inicios de texto y títulos.</p>
+
+        <ul>
+            <li>Inicio de un texto o después de punto.</li>
+            <li>Nombres propios.</li>
+            <li>Lugares.</li>
+            <li>Festividades.</li>
+            <li>Títulos de obras.</li>
+        </ul>
+
+        <div class="consejo">
+            <h3>Consejos para entenderlo</h3>
+            <p>Si la palabra nombra algo único, va con mayúscula.</p>
+        </div>
+
+        <div class="facil">
+            <h3>Cómo aprenderlo fácil</h3>
+            <p>Escribe frases y marca con color las mayúsculas. Repetirlo ayuda a fijarlo.</p>
+        </div>
+    </div>
+
+    <!-- EJEMPLOS -->
+    <div class="card oculto" id="ejemplos">
+        <h2>Ejemplos Prácticos</h2>
+
+        <h3>B y V</h3>
+        <ul>
+            <li>Escribir → se escribe con B porque termina en -bir </li>
+            <li>Evitar → se escribe con V porque empieza con evi- ✔️</li>
+        </ul>
+
+        <h3>G y J</h3>
+        <ul>
+            <li>Protegir ❌ → Proteger ✔️</li>
+            <li>Garaje ✔️ → termina en -aje </li>
+        </ul>
+
+        <h3>H</h3>
+        <ul>
+            <li>Huevo ✔️ → empieza con hue- </li>
+            <li>Echo ❌ → Hecho ✔️</li>
+        </ul>
+
+        <h3>LL y Y</h3>
+        <ul>
+            <li>Costilla ✔️ → termina en -illa </li>
+            <li>Estoy ✔️ → termina en -oy </li>
+        </ul>
+
+        <h3>Mayúsculas</h3>
+        <ul>
+            <li>Guatemala ✔️ → nombre propio </li>
+            <li>la vida es sueño ❌ → La vida es sueño ✔️</li>
+        </ul>
+
+        <div class="consejo">
+            <h3>Consejos para practicar</h3>
+            <p>Haz una lista de palabras que te confundan y clasifícalas por reglas.</p>
+        </div>
+
+        <div class="facil">
+            <h3>Cómo aprenderlo fácil</h3>
+            <p>Convierte los ejemplos en tarjetas de estudio. Verlos seguido ayuda a memorizar.</p>
+        </div>
+    </div>
+
+</main>
+
+</body>
+</html>
